@@ -1,0 +1,66 @@
+ MOOC – Massive Open Online Courses that provide structured learning to a large audience.
+1. Navbar
+Logo, anchor links (Courses, About, How It Works, Join Now), and a prominent CTA like “Start Learning Free”.
+
+2. Hero Section
+Big headline (e.g., “Learn from Top Universities and Companies. Anytime, Anywhere.”) with a CTA button (“Browse Courses” or “Enroll Free”).
+
+3. About the MOOC Platform
+Short explanation of what the platform offers—free/affordable access to university-level education for everyone, everywhere.
+
+4. Featured Courses / Popular Categories
+Grid showing featured or trending courses (e.g., Data Science, Business, Arts) with thumbnails and quick enrollment links.
+
+5. How It Works
+Step-by-step guide explaining the process: Browse → Enroll → Learn → Earn Certificate.
+
+6. Course Highlights
+Key features like flexible deadlines, expert instructors, video lectures, quizzes, peer-graded assignments.
+
+7. Top Universities / Partners
+Logos and names of top universities and companies offering the courses (e.g., Harvard, Google, MIT).
+
+8. Certification Information
+Explain how learners can earn verified certificates or specialisations and how they can benefit their career.
+
+9. Learning Pathways
+Showcase structured pathways or programs that guide students from beginner to advanced level.
+
+10. Why Choose Our MOOC Platform?
+List unique selling points like global access, flexible learning, affordable education, recognised credentials.
+
+11. Success Stories / Testimonials
+Videos, quotes, or written stories from learners who completed courses and achieved career or personal goals.
+
+12. Mobile Learning Access
+Highlight mobile app availability or mobile-friendly learning experience.
+
+13. Free vs Paid Courses Comparison
+Clearly explain which features are included for free users vs. paid certificate seekers.
+
+14. Upcoming Courses / New Launches
+Highlight new or upcoming courses with the option to “Join Waitlist” or “Pre-Enroll”.
+
+15. Community & Peer Interaction
+Describe forums, peer reviews, study groups, and discussion boards where learners can connect.
+
+16. Corporate Training / Enterprise Solutions (Optional)
+Offer details for companies wanting to enroll teams or buy bulk licenses for employees.
+
+17. FAQs
+Answer common questions about registration, payments, certification, deadlines, and support.
+
+18. Scholarships or Financial Aid (Optional)
+Explain how learners can apply for discounts, financial aid, or scholarships if available.
+
+19. Social Proof (Optional)
+Show logos of companies where your learners have been hired after completing courses.
+
+20. Newsletter Signup
+Invite users to subscribe for new course updates, free webinars, or offers.
+
+21. Final CTA Banner
+Inspiring closing message (e.g., “Start Learning Today and Transform Your Future”) with a “Browse Courses” or “Enroll Free” button.
+
+22. Footer
+Standard footer with logo, navigation links (Courses, Help, About, Careers), social media icons, privacy policy, and terms.

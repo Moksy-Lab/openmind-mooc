@@ -1,643 +1,760 @@
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
-<br />
-<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
-<br />
-<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
-/*****nobly*****/
-/* #nobly(noblyNavbar) #css starts  */
-.noblyNavbar .nav-link {
-    margin-left: 8px
+/* #numb(numbNavbar) #css starts  */
+.numbNavbar .logo {
+  max-height: 30px
 }
 
-.noblyNavbar .logo {
-    max-height: 50px
+.numbNavbar .btn {
+  background-color: var(--primary);
+  color: var(--white);
+  border: none;
+  font-weight: bold
 }
 
-.noblyNavbar .navbar-open-icon {
-    display: inline
+.numbNavbar .navbar-open-icon {
+  display: inline
 }
 
-.noblyNavbar .navbar-close-icon {
-    display: none
+.numbNavbar .navbar-close-icon {
+  display: none
 }
 
-.noblyNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
-    display: none
+.numbNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+  display: none
 }
 
-.noblyNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
-    display: inline
+.numbNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+  display: inline
 }
 
-.noblyNavbar .navbar-light .navbar-toggler {
-    color: #353935;
-    border-color: #353935;
-    font-size: 25px;
+.numbNavbar .navbar-light .navbar-toggler {
+  color: var(--dark);
+  border-color: var(--dark);
+  font-size: 25px;
 }
-
-.noblyNavbar .btnone {
-    background-color: #329ef7;
-    color: white !important;
-    border: none;
-    font-weight: bold
-}
-
-.noblyNavbar .btntwo {
-    background-color: #353935;
-    color: white !important;
-    border: none;
-    font-weight: bold
-}
-
-/* #nobly(noblyNavbar) #css ends  */
-/*****nobly*****/
-
-/*****hilly*****/
-/* #hilly(hillyHero) #css starts  */
-.hillyHero .DescriptionHeading {
-    font-size: 50px
-}
-
-.hillyHero .DescriptionPara {
-    font-weight: 500;
-    font-size: 18px
-}
-
-.hillyHero .descriptionImage img {
-    margin-top: -20px;
-    height: 600px;
-    width: 500px
-}
-
-.hillyHero .fa-play-circle {
-    font-size: 40px;
-    color: #353935
-}
-
-.hillyHero .knowMore {
-    font-weight: bold;
-    margin-top: 7px;
-    margin-left: 8px
-}
-
-.hillyHero .Get {
-    font-weight: 700
-}
-
-.hillyHero a {
-    position: absolute;
-    text-decoration: none;
-    color: #000;
-    z-index: 1000
-}
-
-.hillyHero a:hover {
-    color: black
-}
-
-.hillyHero .Watch {
-    margin-top: 15px
-}
-
-/* #hilly(hillyHero) #css ends  */
-/*****hilly*****/
-
-/*****taste*****/
-/* #taste(tasteTicker) #css starts  */
-.tasteTicker {
-    height: 20vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    overflow: hidden;
-    background-color: var(--primary_color);
-}
-
-.tasteTicker .ticker {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: 50px;
-    margin: 0 auto;
-}
-
-.tasteTicker .news {
-    width: 100%;
-    background: transparent;
-    padding: 0 2%;
-}
-
-.tasteTicker p {
-    font-size: 25px;
-    margin-top: 4px !important;
-}
-
-.tasteTicker .news-content p {
-    display: inline-block;
-    margin: 0;
-    color: #fff;
-}
-.tasteTicker .news-content {
-    display: flex;
-    gap: 50px; /* Adjust the spacing between news items */
-    animation: scrollNews 10s linear infinite;
-    white-space: nowrap;
-}
-@keyframes scrollNews {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
-}
-/* #taste(tasteTicker) #css ends  */
-/*****taste*****/
-
-/*****stavo*****/
-    /* #stavo(stavoService) #css starts */
-    .stavoService h1{ 
-        padding: 0 0 30px;
-     }
-     .stavoService .serviceBox{
-         padding:30px 0;
-         text-align: center;
-         background: #353535;
-         color: #ffffff;
-     }
-     .stavoService .serviceBox.yellow{
-         background: #353535;
-     }
-     .stavoService .serviceBox.green{
-         background: #353535;
-     }
-     .stavoService .serviceBox .service-icon {
-         background: none repeat scroll 0 0 #fff;
-         border-radius: 100px;
-         height: 70px;
-         line-height: 73px;
-         width: 70px;
-         margin: 0 auto;
-     }
-     .stavoService .serviceBox .service-icon a {
-        font-size: 30px;
-     }
-     
-     .stavoService .serviceBox .service-icon a i{
-         line-height: inherit;
-         color: #353535;
-     }
-     .stavoService .serviceBox h3 {
-         font: 600 17px/18px "arial";
-     }
-     .stavoService .serviceBox p {
-         font: lighter 14px/21px;
-         padding: 0 20px;
-     }
-     .stavoService .serviceBox .drag-icon {
-         background: none repeat scroll 0 0 #353535;
-         padding: 13px;
-     }
-     .stavoService .serviceBox .drag-icon a{
-         color: #fff;
-         font-size: 20px;
-     }
-     
-     @media screen and (max-width: 767px){
-         .stavoService .serviceBox{
-             margin-bottom: 30px;
-         }
-     } 
-             /* #stavo(stavoService) #css ends */
-     /*****stavo*****/
-
-/*****catch*****/
-/* #catch(catchCounters) #css starts  */
-.catchCounters .icon-home {
-    width: 80px;
-    height: 80px;
-}
-
-.catchCounters i {
-    font-size: 30px;
-}
-
-.catchCounters .bg-primary{
-    background-color: #353535 !important;
-}
-
-.catchCounters .text-secondary{
-    color: #353535 !important;
-}
-/* #catch(catchCounters) #css ends  */
-/*****catch*****/
-
-/*****baira*****/
-    /* #baira(bairaBlog) #css starts  */
-    .bairaBlog .heading{
-        color: #36dca4;
-    }
-    .bairaBlog .h1{
-        font-weight: 600;
-    }
-    .bairaBlog .para {
-        line-height: 1.8;
-    }
-    .bairaBlog .date{
-        margin-top: 0.1rem !important;
-    }
-    /* #baira(bairaBlog) #css ends  */
-/*****baira*****/
-
-/*****fiery*****/
-/* #fiery(fieryFaq) #css starts  */
-.fieryFAQ .accordion .card .card-header {
-    border: 0;
-    border-radius: 2px;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    padding: 0;
-    background-color: rgba(0, 0, 0, .1)
-}
-
-.fieryFAQ .accordion .card .card-header .btn-header-link {
-    color: #fff;
-    display: block;
-    text-align: left;
-    color: #343434;
-    padding: 15px;
-    font-weight: 500
-}
-
-.fieryFAQ .accordion .card .card-header .btn-header-link:after {
-    content: "\f077";
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    float: right
-}
-
-.fieryFAQ .accordion .card .card-header .btn-header-link.collapsed:after {
-    content: "\f078"
+.numbNavbar .navbar-light .navbar-nav .nav-link {
+  color: var(--dark);
 }
+.numbNavbar .navbar-light .navbar-nav .nav-link:focus, 
+.numbNavbar .navbar-light .navbar-nav .nav-link:hover {
+      color: var(--primary);
+  }
+/* #numb(numbNavbar) #css ends  */
+
+/* #hark(harkHero) #css starts  */
+.harkHero h1 {
+  font-size: 40px;
+  color: var(--dark);
+  margin-top: 40px
+}
+
+.harkHero .horizontal {
+  width: 20%;
+  text-align: left;
+  margin-left: 0;
+  height: 10px;
+  border-radius: 35px;
+  background-color: var(--dark);
+  border: none;
+  margin-top: 20px
+}
+
+.harkHero .para {
+  color: var(--dark);
+}
+
+.harkHero .searchBtn {
+  background-color: var(--dark);
+  border-radius: 5px;
+  color: var(--white);
+  font-weight: bold
+}
+
+/* #hark(harkHero) #css ends  */
+
+/* #pulox(puloxProduct) #css starts  */
+.puloxProduct .product-grid {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.puloxProduct .product-grid:before {
+  content: "";
+  height: 81%;
+  width: 100%;
+  background: var(--white);
+  border: 1px solid rgba(0,0,0,0.1);
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all 0.5s ease 0s;
+}
+.puloxProduct .product-grid:hover:before {
+  opacity: 1;
+  height: 100%;
+}
+.puloxProduct .product-grid .product-image {
+  position: relative;
+  width: 100%; 
+  height: 300px; 
+  overflow: hidden; 
+}
+.puloxProduct .product-grid .product-image a {
+  display: block;
+  height: 100%; 
+}
+.puloxProduct .product-grid .product-image img {
+  width: 100%;
+  height: 100%; 
+  object-fit: cover; 
+}
+.puloxProduct .product-grid .pic-1 {
+  opacity: 1;
+  transition: all 0.5s ease-out 0s;
+}
+.puloxProduct .product-grid:hover .pic-1 {
+  opacity: 0;
+}
+.puloxProduct .product-grid .pic-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s ease-out 0s;
+}
+.puloxProduct .product-grid:hover .pic-2 {
+  opacity: 1;
+}
+.puloxProduct .product-grid .social {
+  width: 120px;
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: -23px;
+  transform: scale(0);
+  transition: all 0.3s ease 0s;
+}
+.puloxProduct .product-grid:hover .social {
+  opacity: 1;
+  transform: scale(1);
+}
+.puloxProduct .product-grid .social li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.puloxProduct .product-grid .social li a {
+  color: var(--primary);
+  background: var(--white);
+  font-size: 18px;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid rgba(0,0,0,0.10);
+  border-radius: 50%;
+  margin: 0 2px;
+  display: block;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 25px;
+}
+.puloxProduct .product-grid .social li a:hover {
+  background:  var(--primary);
+  color:  var(--white);
+}
+.puloxProduct .product-grid .social li a i {
+  line-height: inherit;
+}
+.puloxProduct .product-grid .product-new-label,
+.puloxProduct .product-grid .product-discount-label {
+  background-color:  var(--primary);
+  color:  var(--white);
+  font-size: 17px;
+  padding: 2px 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: all 0.3s;
+}
+.puloxProduct .product-grid:hover .product-new-label,
+.puloxProduct .product-grid:hover .product-discount-label {
+  opacity: 0;
+}
+.puloxProduct .product-grid .product-content {
+  z-index: -1;
+  padding: 15px;
+  text-align: left;
+}
+.puloxProduct .product-grid .title {
+  font-size: 14px;
+  text-transform: capitalize;
+  margin: 0 0 7px;
+  transition: all 0.3s ease 0s;
+}
+.puloxProduct .product-grid .title a {
+  color:  var(--disabled);
+}
+.puloxProduct .product-grid:hover .title {
+  opacity: 0;
+}
+.puloxProduct .product-grid .price {
+  color:  var(--dark);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-right: 2px;
+  display: inline-block;
+}
+.puloxProduct .product-grid .price span {
+  color:  var(--disabled);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  text-decoration: line-through;
+  text-align: left;
+  display: inline-block;
+  margin-top: -2px;
+}
+.puloxProduct .product-grid .rating {
+  padding: 0;
+  margin: -22px 0 0;
+  list-style: none;
+  text-align: right;
+  display: block;
+}
+.puloxProduct .product-grid .rating li {
+  color:  var(--warning);
+  font-size: 13px;
+  display: inline-block;
+}
+.puloxProduct .product-grid .rating li.disable {
+  color:  var(--disabled);
+}
+@media only screen and (max-width: 1200px) {
+  .puloxProduct .product-grid .rating {
+      margin: 0;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .puloxProduct .product-grid {
+      margin-bottom: 30px;
+  }
+  .puloxProduct .product-grid .rating {
+      margin: -22px 0 0;
+  }
+}
+@media only screen and (max-width: 359px) {
+  .puloxProduct .product-grid .rating {
+      margin: 0;
+  }
+}
+
+/* #pulox(puloxProduct) #css ends  */
+
+ /* #sugar(sugarSteps) #css starts */
+ .sugarSteps .service {
+  color: var(--secondary);
+}
+
+.sugarSteps .div1,
+.sugarSteps .div2,
+.sugarSteps .div3 {
+  width: 60px;
+  height: 60px;
+  background-color: var(--secondary)
+}
+
+.sugarSteps .font-icon {
+  width: 90px;
+  height: 90px;
+  margin-top: -45px;
+}
+  
+      /* #sugar(sugarSteps) #css ends */
+
+/* #floor(floorFeature) #css starts */
+.floorFeature .card-img-top {
+  height: 50px;
+  width: 50px;
+  margin-left: 30px;
+  margin-top: 20px
+}
+
+.floorFeature .card:hover {
+  box-shadow: var(--white) 0px 10px 15px -3px, var(--dark) 0px 4px 6px -2px
+}
+
+.floorFeature .card-link {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: bold
+}
+
+/* #floor(floorFeature) #css ends */
+
+/* #cepra(cepraClients) #css starts  */
+.cepraClients .client {
+  margin-top: 20px;
+}
+
+.cepraClients .img-responsive {
+  max-height: 150px;
+  max-width: 150px
+}
+
+
+.cepraClients .client .thumbnail:hover {
+  border: 2px solid var(--dark);
+  -webkit-transform: scale(1.2);
+}
+
+/* #cepra(cepraClients) #css ends  */
+
+
+/* #rosie(rosieRoadmap) #css starts  */
+.rosieRoadmap .main-timeline:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.rosieRoadmap .timeline::before {
+  width: 0px !important;
+}
+
+.rosieRoadmap h1 {
+  text-align: center;
+  margin-bottom: 15px;
+}
 
-.fieryFAQ .accordion .card .collapsing {
-    line-height: 30px
-}
-
-.fieryFAQ .accordion .card .collapse {
-    border: 0
+.rosieRoadmap .main-timeline .timeline {
+  width: 50%;
+  margin: 0 5px 15px 0;
+  float: left;
+}
+
+.rosieRoadmap .main-timeline .timeline-content {
+  background: linear-gradient(to right, transparent,  var(--white));
+  min-height: 120px;
+  padding: 120px 20px 20px;
+  display: block;
+  position: relative;
+  z-index: 1;
 }
 
-.fieryFAQ .accordion .card .collapse.show {
-    line-height: 30px;
-    color: #343434
-}
-
-.fieryFAQ .accordion .btn.focus,
-.fieryFAQ .accordion .btn:focus {
-    outline: 0;
-    -webkit-box-shadow: none !important;
-    -moz-box-shadow: none !important;
-    box-shadow: none !important
+.rosieRoadmap .main-timeline .timeline-content:hover {
+  text-decoration: none;
 }
 
-.fieryFAQ .accordion .card-body {
-    border-bottom: 1px solid #ddd
+.rosieRoadmap .main-timeline .timeline-icon {
+  color:  var(--dark);
+  background:  var(--white);
+  font-size: 40px;
+  text-align: center;
+  line-height: 80px;
+  width: 70px;
+  height: 80px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
 }
 
-.fieryFAQ .accordion>.card:not(:last-of-type) .card-body {
-    border-bottom: 1px solid #ddd
+.rosieRoadmap .main-timeline .timeline-icon i {
+  line-height: inherit;
 }
 
-.fieryFAQ .accordion>.card {
-    margin-bottom: 15px
+.rosieRoadmap .main-timeline .timeline-year {
+  color:  var(--white);
+  background-color: var(--dark);
+  font-size: 22px;
+  font-weight: 600;
+  padding: 13px 30px;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
-.fieryFAQ .head-three-custom-cls {
-    font-size: 35px;
+.rosieRoadmap .main-timeline .timeline-year:after {
+  content: '';
+  background-color: var(--warning);
+  height: 40px;
+  width: 20px;
+  border-radius: 0 0 10px 0;
+  transform: rotate(-20deg);
+  position: absolute;
+  right: -8px;
+  top: 3px;
+  z-index: -1;
 }
 
-.fieryFAQ .card-one {
-    background-color: #353535 !important;
+.rosieRoadmap .main-timeline .title {
+  color: var(--dark);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0 0 7px;
 }
 
-.fieryFAQ .pd-l-2 {
-    padding-left: 2%;
+.rosieRoadmap .main-timeline .description {
+  color: var(--dark);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 1px;
+  margin: 0;
 }
 
-.fieryFAQ div[data-toggle="collapse"] {
-    border-bottom: 1px solid #BBDEFB;
-    width: 100%;
-    cursor: pointer;
-    padding: 1%;
+.rosieRoadmap .main-timeline .timeline:nth-child(even) {
+  margin: 0 0 15px 5px;
+  float: right;
 }
 
-.fieryFAQ .collapse {
-    background: #F5F5F5;
+.rosieRoadmap .main-timeline .timeline:nth-child(even) .timeline-content {
+  background: linear-gradient(to left, transparent, var(--white));
 }
 
-/* #fiery(fieryFaq) #css ends  */
-/*****fiery*****/
-
-/*****tanix*****/
-/* #tanix(tanixTestimonial) #css starts  */
-.tanixTestimonial {
-    color: #000;
-    overflow-x: hidden;
-    height: 100%;
-    background-repeat: no-repeat
+.rosieRoadmap .main-timeline .timeline:nth-child(even) .timeline-icon {
+  left: auto;
+  right: 0;
 }
 
-.tanixTestimonial h5{
-    font-size: 25px;
+.rosieRoadmap .main-timeline .timeline:nth-child(even) .timeline-year {
+  left: 0;
+  right: auto;
 }
 
-.tanixTestimonial .card-main {
-    padding: 50px;
-    border-radius: 10px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    box-shadow: 0px 4px 8px 0px #283593
+.rosieRoadmap .main-timeline .timeline:nth-child(even) .timeline-year:after {
+  border-radius: 0 0 0 10px;
+  transform: rotate(20deg);
+  left: -8px;
+  right: 0;
 }
 
-.tanixTestimonial .card-0 {
-    color: #fff;
-    background-color: #353935;
-    position: relative;
-    margin-left: 70px;
-    border-radius: 10px;
-    min-height: 312px
+.rosieRoadmap .main-timeline .timeline:nth-child(2) .timeline-year {
+  background-color: var(--dark);
 }
 
-.tanixTestimonial .carousel-indicators li {
-    cursor: pointer;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px
+.rosieRoadmap .main-timeline .timeline:nth-child(2) .timeline-year:after {
+  background-color: var(--primary);
 }
 
-.tanixTestimonial .profile {
-    color: #000;
-    background-color: #FFD54F;
-    position: absolute;
-    left: -70px;
-    top: 17%;
-    border-radius: 8px;
-    border-top-left-radius: 0px;
-    border-bottom-right-radius: 0px
+.rosieRoadmap .main-timeline .timeline:nth-child(2) .title {
+  color: var(--dark);
 }
 
-.tanixTestimonial .profile-pic {
-    width: 120px;
-    height: 120px;
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 10px
+.rosieRoadmap .main-timeline .timeline:nth-child(3) .timeline-year {
+  background-color: var(--dark);
 }
 
-.tanixTestimonial .open-quotes {
-    margin-left: 130px;
-    margin-top: 100px
+.rosieRoadmap .main-timeline .timeline:nth-child(3) .timeline-year:after {
+  background-color: var(--alert);
 }
 
-.tanixTestimonial .content {
-    margin-left: 150px;
-    margin-right: 80px
+.rosieRoadmap .main-timeline .timeline:nth-child(3) .title {
+  color: var(--dark);
 }
 
-.tanixTestimonial .close-quotes {
-    margin-bottom: 100px;
-    margin-right: 60px
+.rosieRoadmap .main-timeline .timeline:nth-child(4) .timeline-year {
+  background-color: var(--dark);
 }
-
-@media screen and (max-width: 600px) {
-    .tanixTestimonial .card-main {
-        padding: 50px 10px
-    }
-
-    .tanixTestimonial .card-0 {
-        min-height: 432px
-    }
-
-    .tanixTestimonial .profile {
-        top: 24%
-    }
 
-    .tanixTestimonial .profile-pic {
-        width: 90px;
-        height: 90px
-    }
-
-    .tanixTestimonial .open-quotes {
-        margin-left: 100px
-    }
-
-    .tanixTestimonial .content {
-        margin-left: 120px;
-        margin-right: 50px
-    }
-
-    .tanixTestimonial .close-quotes {
-        margin-right: 30px
-    }
+.rosieRoadmap .main-timeline .timeline:nth-child(4) .timeline-year:after {
+  background-color: var(--success);
 }
-
-/* #tanix(tanixTestimonial) #css ends  */
-/*****tanix*****/
 
-/*****suzor*****/
-/* #suzor(suzorSubscribe) #css starts */
-.suzorSubscribe .fdb-block {
-    padding: 7.5rem 0;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-image: url(https://images.moksy.com/templates/defaul/shapes/shape-blue.svg);
-    background-color: #FFFFFF
+.rosieRoadmap .main-timeline .timeline:nth-child(4) .title {
+  color: var(--dark);
 }
 
-.suzorSubscribe .fdb-block .fdb-box {
-    background: #FFFFFF;
-    padding: 3.75rem 2.5rem;
-    color: #444444;
-    border-radius: 0.25rem;
-    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2)
-}
+@media screen and (max-width: 767px) {
 
-.suzorSubscribe .btn {
-    color: #fff;
-    background-color: #353935;
-    border-color: #353935;
+  .rosieRoadmap .main-timeline .timeline,
+  .rosieRoadmap .main-timeline .timeline:nth-child(even) {
+      width: 100%;
+      padding: 0 10px;
+      margin: 0 0 30px;
+  }
 }
-
-/* #suzor(suzorSubscribe) #css starts */
-/*****suzor*****/
 
-/*****cyrto*****/
-/* #cyrto(cyrtoCTA) #css starts  */
-.cyrtoCTA .fdb-block {
-    padding: 7.5rem 0;
-    position: relative;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    overflow: hidden;
-    background-image: url(https://images.moksy.com/templates/default/shapes/shape-purple-two.svg);
-    background-color: #FFFFFF
-}
+/* #rosie(rosieRoadmap) #css ends  */
 
-.cyrtoCTA .fdb-block.fdb-viewport .container {
-    min-height: calc(100% - 2 * 7.5rem)
+/* #turza(turzaTestimonial) #css starts  */
+.turzaTestimonial .fdb-block {
+  padding: 3rem 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-color: var(--white);
+  background-image: url(https://images.moksy.com/templates/default/shapes/shape-red.svg)
 }
 
-.cyrtoCTA .fdb-block img+h1,
-.cyrtoCTA .fdb-block img+h2 {
-    margin-top: 2.5rem
+.turzaTestimonial .fdb-block .fdb-box {
+  background: var(--white);
+  padding: 3.75rem 2.5rem;
+  overflow: hidden;
+  color: var(--dark);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.3125rem 0.875rem 0 var(--dark)
 }
 
-.cyrtoCTA .fdb-block img.fdb-icon {
-    max-width: 3.75rem
+.turzaTestimonial .lead {
+  font-weight: 500;
 }
 
-.cyrtoCTA .btn {
-    color: #fff;
-    border-color: #353935;
-    background-color: #353935;
-}
+/* #turza(turzaTestimonial) #css ends  */
 
-/* #cyrto(cyrtoCTA) #css ends  */
-/*****cyrto*****/
 
-/*****dalix*****/
 /* #dalix(dalixDownload) #css starts  */
 .dalixDownload {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 .dalixDownload .appImg img {
-    height: 500px;
-    max-width: 500px;
+  height: 500px;
+  max-width: 500px;
 }
 
 .dalixDownload .bannerBG {
-    background: #fff
+  background: var(--white)
 }
 
 .dalixDownload .appImg {
-    border-top-left-radius: 600px;
-    border-top-right-radius: 600px
+  border-top-left-radius: 600px;
+  border-top-right-radius: 600px
 }
 
 .dalixDownload .bannerStyle {
-    margin-top: 100px;
-    padding: 30px;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
-    border-bottom-left-radius: 50px
+  margin-top: 100px;
+  padding: 30px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px
 }
 
 .dalixDownload .appLogo {
-    height: 130px;
-    margin-left: -25px;
+  height: 130px;
+  margin-left: -25px;
 
 }
 
 @media (max-width: 742px),
 (max-height: 520px) {
-    .dalixDownload .bannerStyle {
-        margin-top: 30px;
-    }
+  .dalixDownload .bannerStyle {
+      margin-top: 30px;
+  }
 }
 
 /* #dalix(dalixDownload) #css ends  */
-/*****dalix*****/
 
-/*****flora*****/
-/* #flora(floraFooter) #css starts */
-.floraFooter a {
-    color: #353935
+ /* #paul(paulProduct) #css starts  */
+ .paulProduct .product-grid{ text-align: center; }
+ .paulProduct .product-grid .product-image{
+     overflow: hidden;
+     position: relative;
+     width: 100%; 
+     height: 300px; 
+ }
+ .paulProduct .product-grid .product-image:before{
+     content: "";
+     background: rgba(0,0,0,0.02);
+     position: absolute;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     z-index: 1;
+ }
+ .paulProduct .product-grid .product-image img{
+     width: 100%;
+     height: 100%; 
+     object-fit: cover;
+ }
+ .paulProduct .product-grid .pic-1{
+     opacity: 1;
+     transform: rotateY(0);
+     transition: all 0.5s ease-out 0s;
+ }
+ .paulProduct .product-grid:hover .pic-1{
+     opacity: 0;
+     transform: rotateY(-90deg);
+ }
+ .paulProduct .product-grid .pic-2{
+     position: absolute;
+     top: 0;
+     left: 0;
+     opacity: 0;
+     transform: rotateY(-90deg);
+     transition: all 0.5s ease-out 0s;
+ }
+ .paulProduct .product-grid:hover .pic-2{
+     opacity: 1;
+     transform: rotateY(0deg);
+ }
+ .paulProduct .product-grid .social{
+     width: 100%;
+     background: var(--white);
+     padding: 0;
+     margin: 0;
+     list-style: none;
+     position: absolute;
+     bottom: 0;
+     left: 0;
+     opacity: 0;
+     z-index: 1;
+     transition: all 0.5s ease 0s;
+ }
+ .paulProduct .product-grid:hover .social{ opacity: 1; }
+ .paulProduct .product-grid .social li{ display: inline-block; }
+ .paulProduct .product-grid .social li a{
+     display: block;
+     width: 70px;
+     height: 70px;
+     line-height: 70px;
+     background: var(--white);
+     font-size: 20px;
+     color: var(--dark);
+     transition: all 0.3s ease 0s;
+ }
+ .paulProduct .product-grid .social li a:hover{
+     background: var(--white);
+     color: var(--primary);
+ }
+ .paulProduct .product-grid .social li a:before{
+     content: attr(data-tip);
+     color: var(--dark);
+     font-size: 12px;
+     white-space: nowrap;
+     opacity: 0;
+     transform:translateX(-50%);
+     position: absolute;
+     left: 50%;
+     bottom: -47px;
+ }
+ .paulProduct .product-grid .social li a:hover:before{
+     opacity: 1;
+ }
+ .paulProduct .product-grid .social li a i{
+     line-height:inherit;
+ }
+ .paulProduct .product-grid .discount{
+     width: 100%;
+     padding: 15px;
+     background: var(--white);
+     font-size: 18px;
+     font-weight: 700;
+     color: var(--dark);
+     position: absolute;
+     bottom: 0;
+     left: 0;
+ }
+ .paulProduct .product-grid .product-content{ padding: 35px 0 15px; }
+ .paulProduct .product-grid .title{
+     font-size: 20px;
+     font-weight: 600;
+     color: var(--dark);
+     text-transform: capitalize;
+     margin: 0 0 5px 0;
+ }
+ .paulProduct .product-grid .price{
+     font-size: 16px;
+     font-weight: 600;
+     color: var(--primary);
+     margin-bottom: 5px;
+ }
+ .paulProduct .product-grid .price span{
+     display: inline-block;
+     color: var(--disabled);
+     text-decoration: line-through;
+     margin-right: 2px;
+ }
+ .paulProduct .product-grid .rating{
+     padding: 0;
+     margin: 0;
+     list-style: none;
+ }
+ .paulProduct .product-grid .rating li{
+     display: inline-block;
+     font-size: 10px;
+     color: var(--warning);
+ }
+ @media only screen and (max-width:990px){
+     .paulProduct .product-grid{ margin-bottom: 30px; }
+ }
+     /* #paul(paulProduct) #css ends  */
+
+    /* #fight(fightFaq) #css starts  */
+    .fightFaq .heading{
+      color: var(--primary);
+  }
+  .fightFaq .bg{
+      background-color: var(--primary);
+  }
+  /* #fight(fightFaq) #css ends  */
+
+/* #solva(solvaSubscribe) #css starts */
+.solvaSubscribe .btn {
+  color: var(--white);
+  background-color: var(--primary);
+  border-color: var(--primary);
 }
 
-.floraFooter .shfooter .collapse {
-    display: inherit
+.solvaSubscribe .privacytxt {
+  margin-top: 10px;
 }
 
-.floraFooter .li-custom-class {
-    margin: 10px 0px 10px 0;
+/* #solva(solvaSubscribe) #css starts */
+
+/* #cyrto(cyrtoCTA) #css starts  */
+.cyrtoCTA .fdb-block {
+  padding: 7.5rem 0;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  background-image: url(https://images.moksy.com/templates/default/shapes/shape-purple-two.svg);
+  background-color: var(--white)
 }
 
-@media (max-width:767px) {
-    .floraFooter .shfooter ul {
-        margin-bottom: 0
-    }
-
-    .floraFooter .shfooter .collapse {
-        display: none
-    }
-
-    .floraFooter .shfooter .collapse.show {
-        display: block
-    }
-
-    .floraFooter.shfooter .title .fa-angle-up,
-    .floraFooter.shfooter .title[aria-expanded=true] .fa-angle-down {
-        display: none
-    }
-
-    .floraFooter .shfooter .title[aria-expanded=true] .fa-angle-up {
-        display: block
-    }
-
-    .floraFooter .shfooter .navbar-toggler {
-        display: inline-block;
-        padding: 0
-    }
-
+.cyrtoCTA .fdb-block.fdb-viewport .container {
+  min-height: calc(100% - 2 * 7.5rem)
 }
 
-/* #flora(floraFooter) #css ends */
-/*****flora*****/
-
-
-img.logo, footer .logo {
-    max-height: 100% !important;
-    margin: 0px !important;
-    max-width: 100% !important;
+.cyrtoCTA .fdb-block img+h1,
+.cyrtoCTA .fdb-block img+h2 {
+  margin-top: 2.5rem
 }
 
-section#cionCTA, section.calltoaction {
-    margin-bottom: 0px !important;
-    padding-bottom: 0px !important;
+.cyrtoCTA .fdb-block img.fdb-icon {
+  max-width: 3.75rem
 }
+
+.cyrtoCTA .btn {
+  color: var(--white);
+  border-color: var(--primary);
+  background-color: var(--primary);
+}
+
+/* #cyrto(cyrtoCTA) #css ends  */
+/* #flout(floutFooter) #css starts */
+.floutFooter .logo {
+  max-height: 60px
+}
+
+.floutFooter a {
+  color: var(--dark);
+}
+
+/* #flout(floutFooter) #css ends */
 :root {
   --primary_color: #65A854;
   --secondary_color: #98db87;
@@ -648,27 +765,12 @@ section#cionCTA, section.calltoaction {
   --alert_color: #DC3545;
   --warning_color: #FFC107;
 }
-.primary_font-font {
-  font-family: Quicksand;
-  font-style: normal;
-}
-.secondary_font-font {
-  font-family: Work Sans;
-  font-style: normal;
-}
-.tertiary_font-font {
-  font-family: Fira Sans;
-  font-style: normal;
-}
-.default_font-font {
-  font-family: Helvetica;
-  font-style: normal;
-}
+
 body {
   font-family: Helvetica;
   font-size: 16px;
   color: #1c1c1c;
-  background-color: #f4f4f4;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   line-height: 1.6;
